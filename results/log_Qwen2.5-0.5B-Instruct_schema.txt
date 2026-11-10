@@ -1,0 +1,118 @@
+W1109 19:51:26.667000 3919 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<03:19,  1.45it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 393.14it/s]
+[1/60] ContactCard-00 none=True repair=True retry=True constrained=True
+[2/60] ContactCard-01 none=True repair=True retry=True constrained=True
+[3/60] ContactCard-02 none=True repair=True retry=True constrained=True
+[4/60] ContactCard-03 none=True repair=True retry=True constrained=True
+[5/60] ContactCard-04 none=True repair=True retry=True constrained=True
+[6/60] ContactCard-05 none=True repair=True retry=True constrained=True
+[7/60] ContactCard-06 none=True repair=True retry=True constrained=True
+[8/60] ContactCard-07 none=True repair=True retry=True constrained=True
+[9/60] ContactCard-08 none=True repair=True retry=True constrained=True
+[10/60] ContactCard-09 none=True repair=True retry=True constrained=True
+[11/60] ContactCard-10 none=True repair=True retry=True constrained=True
+[12/60] ContactCard-11 none=True repair=True retry=True constrained=True
+[13/60] Invoice-00 none=True repair=True retry=True constrained=True
+[14/60] Invoice-01 none=True repair=True retry=True constrained=True
+[15/60] Invoice-02 none=True repair=True retry=True constrained=True
+[16/60] Invoice-03 none=True repair=True retry=True constrained=True
+[17/60] Invoice-04 none=True repair=True retry=True constrained=True
+[18/60] Invoice-05 none=True repair=True retry=True constrained=True
+[19/60] Invoice-06 none=True repair=True retry=True constrained=True
+[20/60] Invoice-07 none=True repair=True retry=True constrained=True
+[21/60] Invoice-08 none=True repair=True retry=True constrained=True
+[22/60] Invoice-09 none=True repair=True retry=True constrained=True
+[23/60] Invoice-10 none=True repair=True retry=True constrained=True
+[24/60] Invoice-11 none=True repair=True retry=True constrained=True
+[25/60] Event-00 none=True repair=True retry=True constrained=True
+[26/60] Event-01 none=True repair=True retry=True constrained=True
+[27/60] Event-02 none=True repair=True retry=True constrained=True
+[28/60] Event-03 none=True repair=True retry=True constrained=True
+[29/60] Event-04 none=True repair=True retry=True constrained=True
+[30/60] Event-05 none=True repair=True retry=True constrained=True
+[31/60] Event-06 none=True repair=True retry=True constrained=True
+[32/60] Event-07 none=True repair=True retry=True constrained=True
+[33/60] Event-08 none=True repair=True retry=True constrained=True
+[34/60] Event-09 none=True repair=True retry=True constrained=True
+[35/60] Event-10 none=True repair=True retry=True constrained=True
+[36/60] Event-11 none=True repair=True retry=True constrained=True
+[37/60] SupportTicket-00 none=True repair=True retry=True constrained=True
+[38/60] SupportTicket-01 none=True repair=True retry=True constrained=True
+[39/60] SupportTicket-02 none=True repair=True retry=True constrained=True
+[40/60] SupportTicket-03 none=True repair=True retry=True constrained=True
+[41/60] SupportTicket-04 none=True repair=True retry=True constrained=True
+[42/60] SupportTicket-05 none=True repair=True retry=True constrained=True
+[43/60] SupportTicket-06 none=True repair=True retry=True constrained=True
+[44/60] SupportTicket-07 none=True repair=True retry=True constrained=True
+[45/60] SupportTicket-08 none=True repair=True retry=True constrained=True
+[46/60] SupportTicket-09 none=True repair=True retry=True constrained=True
+[47/60] SupportTicket-10 none=True repair=True retry=True constrained=True
+[48/60] SupportTicket-11 none=True repair=True retry=True constrained=True
+[49/60] ProductReview-00 none=True repair=True retry=True constrained=True
+[50/60] ProductReview-01 none=True repair=True retry=True constrained=True
+[51/60] ProductReview-02 none=True repair=True retry=True constrained=True
+[52/60] ProductReview-03 none=True repair=True retry=True constrained=True
+[53/60] ProductReview-04 none=True repair=True retry=True constrained=True
+[54/60] ProductReview-05 none=True repair=True retry=True constrained=True
+[55/60] ProductReview-06 none=True repair=True retry=True constrained=True
+[56/60] ProductReview-07 none=True repair=True retry=True constrained=True
+[57/60] ProductReview-08 none=True repair=True retry=True constrained=True
+[58/60] ProductReview-09 none=True repair=True retry=True constrained=True
+[59/60] ProductReview-10 none=True repair=True retry=True constrained=True
+[60/60] ProductReview-11 none=True repair=True retry=True constrained=True
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "n": 60,
+  "decoding": "greedy",
+  "device": "cpu",
+  "wall_seconds": 413.1,
+  "valid_none": 60,
+  "valid_rate_none": 1.0,
+  "field_acc_none": 0.8613,
+  "valid_repair": 60,
+  "valid_rate_repair": 1.0,
+  "field_acc_repair": 0.8613,
+  "valid_retry": 60,
+  "valid_rate_retry": 1.0,
+  "field_acc_retry": 0.8613,
+  "valid_constrained": 60,
+  "valid_rate_constrained": 1.0,
+  "field_acc_constrained": 0.7206,
+  "repair_stage_counts": {
+    "raw": 60
+  },
+  "per_schema": {
+    "ContactCard": {
+      "none": "12/12",
+      "repair": "12/12",
+      "retry": "12/12",
+      "constrained": "12/12"
+    },
+    "Invoice": {
+      "none": "12/12",
+      "repair": "12/12",
+      "retry": "12/12",
+      "constrained": "12/12"
+    },
+    "Event": {
+      "none": "12/12",
+      "repair": "12/12",
+      "retry": "12/12",
+      "constrained": "12/12"
+    },
+    "SupportTicket": {
+      "none": "12/12",
+      "repair": "12/12",
+      "retry": "12/12",
+      "constrained": "12/12"
+    },
+    "ProductReview": {
+      "none": "12/12",
+      "repair": "12/12",
+      "retry": "12/12",
+      "constrained": "12/12"
+    }
+  },
+  "mean_sec_unconstrained": 4.496,
+  "mean_sec_constrained": 2.388
+}

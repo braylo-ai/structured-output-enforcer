@@ -1,0 +1,58 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+  "n": 60,
+  "decoding": "greedy",
+  "device": "cpu",
+  "wall_seconds": 877.3,
+  "valid_none": 1,
+  "valid_rate_none": 0.0167,
+  "field_acc_none": 0.0083,
+  "valid_repair": 6,
+  "valid_rate_repair": 0.1,
+  "field_acc_repair": 0.0375,
+  "valid_retry": 6,
+  "valid_rate_retry": 0.1,
+  "field_acc_retry": 0.0375,
+  "valid_constrained": 60,
+  "valid_rate_constrained": 1.0,
+  "field_acc_constrained": 0.4455,
+  "repair_stage_counts": {
+    "raw": 1,
+    "extract": 5,
+    "fail": 54
+  },
+  "per_schema": {
+    "ContactCard": {
+      "none": "1/12",
+      "repair": "6/12",
+      "retry": "6/12",
+      "constrained": "12/12"
+    },
+    "Invoice": {
+      "none": "0/12",
+      "repair": "0/12",
+      "retry": "0/12",
+      "constrained": "12/12"
+    },
+    "Event": {
+      "none": "0/12",
+      "repair": "0/12",
+      "retry": "0/12",
+      "constrained": "12/12"
+    },
+    "SupportTicket": {
+      "none": "0/12",
+      "repair": "0/12",
+      "retry": "0/12",
+      "constrained": "12/12"
+    },
+    "ProductReview": {
+      "none": "0/12",
+      "repair": "0/12",
+      "retry": "0/12",
+      "constrained": "12/12"
+    }
+  },
+  "mean_sec_unconstrained": 4.446,
+  "mean_sec_constrained": 1.148
+}

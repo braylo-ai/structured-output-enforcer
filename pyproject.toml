@@ -1,0 +1,14 @@
+[project]
+name = "structured-output-enforcer"
+version = "0.1.0"
+description = "Guaranteed-valid JSON/Pydantic output: schema-constrained decoding for local HF models + validate-and-repair for API models"
+requires-python = ">=3.10"
+dependencies = ["pydantic>=2", "torch>=2.4", "transformers>=4.45"]
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["soe"]
